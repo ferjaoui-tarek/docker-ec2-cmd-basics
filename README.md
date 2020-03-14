@@ -44,7 +44,7 @@ To get list of running containers
 
 To get list of all containers
 ```
-# docker ps -a . 
+# docker ps -a .
 ```
 
 STEP 4 - stop DOCKER
@@ -83,4 +83,32 @@ System
 # docker stats
 # docker system df
 # docker system prune
+```
+
+cmd  iamges
+```
+# docker images --help
+# docker pull image
+# docker images
+# docker images -q
+# docker images -f “dangling=false”
+# docker images -f “dangling=false” -q
+```
+
+```
+# docker run image
+```
+
+delete image
+```
+# docker rmi image
+# docker rmi -f image
+```
+
+```
+# docker inspect
+```
+
+```
+# docker history imageName
 ```
