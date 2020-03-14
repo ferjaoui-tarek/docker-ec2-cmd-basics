@@ -2,7 +2,7 @@ Prerequisite
 OS should be 64 bit
 Linux kernel ver 3.10 or greater
 
-command to check : 
+command to check # 
 # uname -r
 
 STEP 1 - Connect to Linux system
@@ -21,18 +21,59 @@ STEP 3 - start DOCKER
 docker info
 
 To run hello-world image
-# docker run hello-world : 
+```
+docker run hello-world
+```
 
 To get list of images present locally
+```
 # docker images
+```
 
 To get list of running containers
+```
 # docker ps
+```
 
 To get list of all containers
+```
 # docker ps -a . 
+```
 
 STEP 4 - stop DOCKER
+```
 # sudo service docker stop
 # uninstall DOCKER
 # sudo yum remove docker
+```
+
+Basic
+```
+# docker version
+# docker -v
+# docker info
+# docker --help
+# docker login
+```
+————————————
+Images
+```
+# docker images
+# docker pull
+# docker rmi
+```
+————————————
+Containers
+```
+# docker ps
+# docker run
+# docker start
+# docker stop
+```
+————————————
+System
+```
+# docker stats
+# docker system df
+# docker system prune
+```
